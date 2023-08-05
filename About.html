@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial scale=1.0">
+    <title>Workout Fitness center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="INdex.html"><img src="Pics/logo.png" width="75" height="75"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="INdex.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="Plans.html">Plans</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Join us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        </section>
+        <!---about us content-->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the best gym in the town</h1>
+                    <p>Looking for a place to get fit and healthy? Look no further than our gym! Our state-of-the-art equipment and experienced trainers will help you reach your fitness goals in no time. With a variety of classes and programs, there's something for everyone at our gym. Plus, our supportive community will keep you motivated and on track. Don't wait, join us today and start your journey to a healthier you!</p>
+                    <a href="Plans.html" class="hero-btn clr-btn">Explore Now</a><br>
+                
+                </div>
+                <div class="about-col">
+                    <img src="Pics/Exp.jpg">
+                </div>
+            </div>
+            <div class="about-col2">
+                <div class="about-col2">
+                    <img src="Pics/about2.jpg">
+                </div>
+                <h1>Equipments that we provide</h1>
+                <p>Squat Rack: This is where serious squatting takes place. In fitness and strength training, the squat exercise trains your full body. All serious strength training regiments should incorporate the squat station gym equipment.</p><br>
+
+                <p>Barbells: A barbell is essential to strength training, it holds the free weights, or sometimes the weights are attached to the ends. A barbell is perhaps the most versatile out of all the gym equipment out there. You can literally do hundreds of different exercises with these iron bars.</p><br>
+                    
+                    <p>Hexagon Dumbbells: These have a sturdy and versatile design to develop strength and power.</p><br>
+                    
+                    <p>Kettlebells: These are stylish weights for functional training.</p><br>
+                    
+                    <p>Bumper Plates: These have consistent drop absorption and bounce.</p><br>
+                    
+                    <p>Elastic Bands: These are light and versatile, with practical handles.</p><br>
+                    
+                    <p>Jump Rope: This can improve agility and raise your heart rate.</p><br>
+                    
+                    <p>Exercise Mat: This is a must-have for stretching and core exercises, light and portable.</p><br>
+            </div>
+
+        </section>
+        <!--Footer-->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>We can help you to achieve your individual fitness goals and maintain a healthy lifestyle.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+
+        <!-----JAVA FOR TOGGLE MENU----->
+    <script>
+        var navLinks = document.getelementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial scale=1.0">
+    <title>Workout Fitness center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sec-header">
+        <nav>
+            <a href="INdex.html"><img src="Pics/logo.png" width="75" height="75"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="INdex.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="Plans.html">Plans</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Join us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Plans</h1>
+        </section>
+        <!---Plans-->
+        <section class = "plans">
+            <h1>Choose a plan today</h1>
+            <p>We offfer our Prime, Medium and Light plan,so that you can peak one as per your needs.</p>
+            <div class="row">
+                <a href="Contact.html">
+                <div class="plans-col">
+                    <h3>Light</h3>
+                    <p>It's our startup plan ! This plan includes access to the gym and its equipment during regular hours. It also includes a complimentary fitness assessment and a personalized workout plan.<br>-<br>1500 BDT/Month</p>
+                    
+
+                </div>
+                <div class="plans-col">
+                    <h3>Medium</h3>
+                    <p>This plan includes all the benefits of the Light Membership, plus unlimited access to group fitness classes, a monthly personal training session, and a discount on additional personal training sessions.<br>-<br>1800 BDT/Month</p>
+                    
+
+                </div>
+                <div class="plans-col">
+                    <h3>Prime</h3>
+                    <p>This plan includes all the benefits of the Medium Membership, plus unlimited access to the sauna and steam room, a monthly massage or spa treatment, and priority booking for personal training sessions.<br>-<br>2000 BDT/Month</p>
+
+                </div>
+                </a>
+
+            </div>
+        </section>
+        <!---Our Facilities--->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Together we achieve your fitness goals</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Pics/Facilities1.jpg">
+                    <h3>Personalized<br> Diet Recommendations</h3>
+                    <p>A trusted source of dietary advice will be able to help you with a personalized diet that takes into account your habits, preferences, and level of physical activity.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Pics/Facilities3.jpg">
+                    <h3>We value your Privacy </h3>
+                    <p>We ensure that the service providers which process personal information on its behalf are required to only use the gym's information for particular purposes, maintain certain safeguards when handling the gym's information, and timely notify the gym of a security incident.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Pics/Facilities2.jpg">
+                    <h3>Your fitness,our reposibility</h3>
+                    <p>A personal trainer can educate you on proper form, cater to your personal requirements, help you set long-term realistic goals, and keep you accountable to your new fitness routine. They can also teach you about health, fitness, and your body.</p>
+                </div>
+            </div>
+
+        </section>
+        <!--Footer-->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>We can help you to achieve your individual fitness goals and maintain a healthy lifestyle.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+
+        <!-----JAVA FOR TOGGLE MENU----->
+    <script>
+        var navLinks = document.getelementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
